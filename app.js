@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 
 
 app.use(cors({
-  origin: 'http://localhost:3000'
+  origin: 'kodesimple-client-ksco8yxq0-kodesimple.vercel.app'
 }));
 
 // Middleware logger
@@ -23,3 +23,4 @@ app.use((req, res, next) => {
 app.use('/users', require('./routes/users.router')); // http://localhost:8080/users
 
 module.exports = app;
+
