@@ -6,7 +6,7 @@ const app = express();
 
 app.use(express.json()); 
 app.use(bodyParser.json()); 
-
+   ///////////api origin//////////////////
 app.use(
   cors({
     origin: 'https://kodesimple.vercel.app/'
