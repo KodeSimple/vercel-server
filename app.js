@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 
 app.use(
   cors({
-    origin: 'https://kodesimple-client.vercel.app'
+    origin: 'https://kodesimple.vercel.app/'
   })
 );
 
