@@ -1,6 +1,6 @@
 {
     "builds": [
-      { "src": "server.js", "use": "@vercel/node" }
+      { "src": "nodemon server.js", "use": "@vercel/node" }
     ]
   }
 
